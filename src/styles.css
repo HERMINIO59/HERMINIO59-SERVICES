@@ -112,15 +112,27 @@ a {
   display: block;
 }
 
+.brand > span:last-child {
+  min-width: 0;
+}
+
 .brand strong {
   color: #ffffff;
   font-size: 1rem;
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .brand small {
   color: var(--muted-light);
   font-size: 0.75rem;
+}
+
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
 }
 
 .menu-toggle {
@@ -207,6 +219,20 @@ a {
 .language-option:focus {
   outline: 2px solid var(--gold-bright);
   outline-offset: 2px;
+}
+
+.mobile-language-toggle {
+  min-height: 44px;
+  display: inline-flex;
+  background: #111111;
+  border-color: rgba(243, 199, 91, 0.42);
+}
+
+.mobile-language-toggle .language-option {
+  min-width: 38px;
+  min-height: 36px;
+  gap: 0;
+  font-size: 0.72rem;
 }
 
 .site-menu a:hover,
@@ -983,21 +1009,31 @@ h3 {
 }
 
 @media (max-width: 420px) {
-  .brand {
+  .nav-shell {
+    width: min(100% - 28px, var(--max-width));
     gap: 10px;
+    min-height: 70px;
+  }
+
+  .brand {
+    gap: 8px;
   }
 
   .brand-mark {
-    width: 48px;
-    height: 48px;
+    width: 42px;
+    height: 42px;
   }
 
   .brand strong {
-    font-size: 0.9rem;
+    font-size: 0.84rem;
   }
 
   .brand small {
-    font-size: 0.68rem;
+    font-size: 0.64rem;
+  }
+
+  .header-actions {
+    gap: 6px;
   }
 
   .hero {
@@ -1023,6 +1059,10 @@ h3 {
 }
 
 @media (min-width: 900px) {
+  .header-actions {
+    display: none;
+  }
+
   .menu-toggle {
     display: none;
   }
@@ -1134,6 +1174,10 @@ h3 {
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
+  .header-actions {
+    display: inline-flex;
+  }
+
   .menu-toggle {
     display: inline-flex;
   }

@@ -28,18 +28,29 @@
           </span>
         </a>
 
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="site-menu"
-          aria-label="Open navigation menu"
-          data-i18n-attr="aria-label:menuLabel"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div class="header-actions">
+          <div class="language-toggle mobile-language-toggle" aria-label="Language selector" data-i18n-attr="aria-label:languageLabel">
+            <button class="language-option is-active" type="button" data-lang="en" aria-pressed="true">
+              <span>EN</span>
+            </button>
+            <button class="language-option" type="button" data-lang="es" aria-pressed="false">
+              <span>ES</span>
+            </button>
+          </div>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-menu"
+            aria-label="Open navigation menu"
+            data-i18n-attr="aria-label:menuLabel"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
 
         <div class="site-menu" id="site-menu">
           <a href="#services" data-i18n="navServices">Services</a>
