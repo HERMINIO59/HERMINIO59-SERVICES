@@ -102,6 +102,8 @@ const translations = {
     contactEstimate: "Free estimates available",
     contactEmailLabel: "Email",
     contactEmail: "herminio59services@gmail.com",
+    contactFacebookLabel: "Facebook",
+    contactFacebook: "Facebook Page",
     contactHoursLabel: "Hours",
     contactHours: "Pending before launch",
     leadFormEyebrow: "Lead intake",
@@ -140,6 +142,7 @@ const translations = {
     footerLocation: "Naples, Florida",
     footerPending:
       "Call or text (786) 372-0107, or email herminio59services@gmail.com for free estimates. Hours are pending confirmation.",
+    footerFacebook: "Facebook",
     floatCall: "Text",
     floatCallLabel: "Call or text HERMINIO59 Services at 786-372-0107",
   },
@@ -240,6 +243,8 @@ const translations = {
     contactEstimate: "Estimados gratis disponibles",
     contactEmailLabel: "Email",
     contactEmail: "herminio59services@gmail.com",
+    contactFacebookLabel: "Facebook",
+    contactFacebook: "Página de Facebook",
     contactHoursLabel: "Horarios",
     contactHours: "Pendiente antes del lanzamiento",
     leadFormEyebrow: "Entrada de cliente",
@@ -278,6 +283,7 @@ const translations = {
     footerLocation: "Naples, Florida",
     footerPending:
       "Llama o env\u00eda texto al (786) 372-0107, o escribe a herminio59services@gmail.com para estimados gratis. Los horarios siguen pendientes de confirmaci\u00f3n.",
+    footerFacebook: "Facebook",
     floatCall: "Texto",
     floatCallLabel: "Llamar o enviar texto a HERMINIO59 Services al 786-372-0107",
   },

@@ -940,6 +940,19 @@ h3 {
   color: #ffffff;
 }
 
+.footer-social-link {
+  width: fit-content;
+  color: var(--gold-bright);
+  font-size: 0.88rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: #ffffff;
+}
+
 .floating-actions {
   position: fixed;
   right: 16px;
